@@ -61,7 +61,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     appearance.barTintColor = UIColor(red:0.13, green:0.32, blue:0.23, alpha:1.00)
     appearance.tintColor = UIColor.white
     appearance.titleTextAttributes = [
-      NSAttributedStringKey.foregroundColor.rawValue : UIColor.white
+        NSAttributedStringKey(rawValue: NSAttributedStringKey.foregroundColor.rawValue) : UIColor.white
     ]
   }
   

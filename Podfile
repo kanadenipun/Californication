@@ -11,7 +11,7 @@ target 'Californication' do
   pod 'GoogleMaps', '1.13.2'
   pod 'MBProgressHUD', '1.0'
   pod 'HCSStarRatingView', '1.5'
-  pod 'AlamofireImage', '3.2'
+  pod 'AlamofireImage',  :git => 'https://github.com/Alamofire/AlamofireImage.git', :commit => 'a1e44d9aae082d141d062c2b601f8057538c668a', :branch => 'master'
   pod 'AwesomeCache', '5.0'
   
   target 'CalifornicationTests' do

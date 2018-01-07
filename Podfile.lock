@@ -1,7 +1,7 @@
 PODS:
-  - Alamofire (4.4.0)
-  - AlamofireImage (3.2.0):
-    - Alamofire (~> 4.1)
+  - Alamofire (4.6.0)
+  - AlamofireImage (3.3.0):
+    - Alamofire (~> 4.5)
   - AwesomeCache (5.0)
   - Firebase/Core (4.0.2):
     - FirebaseAnalytics (= 4.0.1)
@@ -35,7 +35,7 @@ PODS:
   - MBProgressHUD (1.0.0)
 
 DEPENDENCIES:
-  - AlamofireImage (= 3.2)
+  - AlamofireImage (from `https://github.com/Alamofire/AlamofireImage.git`, commit `a1e44d9aae082d141d062c2b601f8057538c668a`, branch `master`)
   - AwesomeCache (= 5.0)
   - Firebase/Database (= 4.0.2)
   - Firebase/Storage (= 4.0.2)
@@ -43,9 +43,20 @@ DEPENDENCIES:
   - HCSStarRatingView (= 1.5)
   - MBProgressHUD (= 1.0)
 
+EXTERNAL SOURCES:
+  AlamofireImage:
+    :branch: master
+    :commit: a1e44d9aae082d141d062c2b601f8057538c668a
+    :git: https://github.com/Alamofire/AlamofireImage.git
+
+CHECKOUT OPTIONS:
+  AlamofireImage:
+    :commit: c7cf04f7e597f5344e97e39d39fa99ffbd87fe91
+    :git: https://github.com/Alamofire/AlamofireImage.git
+
 SPEC CHECKSUMS:
-  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
-  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AlamofireImage: 4e0cba538743dc2e36cdb5eb5e057a722560769d
   AwesomeCache: d8906955242173357caa0be0214d5e77dec32cc5
   Firebase: c7ad0731eab26d18a3fc547dd048b0f7cd9c63ae
   FirebaseAnalytics: 4d7040fefc3cd8b291cde35f12cf063d7963f15d
@@ -59,6 +70,6 @@ SPEC CHECKSUMS:
   HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
 
-PODFILE CHECKSUM: 6bd7e5cbdbe8ee81ddf924ca7b405274a4417cee
+PODFILE CHECKSUM: 04c8e553919a278f4f86b332cd7e2011052921f5
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.3.1
